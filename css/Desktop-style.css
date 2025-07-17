@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* ----- common ----- */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: "M PLUS Rounded 1c", "マメロン 3 Hi Regular", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    background-color: #fffef9;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+#step-btn {
+    background-color: #0bd;
+    color: #fffef9;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#step-btn:hover {
+    background-color: #00A5BF;
+}
+
+#reset-btn {
+    background-color: #ff4136;
+    color: #fffef9;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#reset-btn:hover {
+    background-color: #c82f24;
+}
+
+#step-info {
+    display: flex;
+    justify-content: center;
+}
+
+/* ----- title ----- */
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#card-container {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* ----- footer ----- */
+footer {
+    text-align: center;
+    padding: 26px 0;
+}
